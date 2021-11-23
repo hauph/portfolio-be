@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_account_accounts",
+  "info": {
+    "name": "Account",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "accountName": {
+      "type": "string"
+    },
+    "accountURL": {
+      "type": "string"
+    }
+  }
+}

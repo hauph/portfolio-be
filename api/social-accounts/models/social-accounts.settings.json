@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_accounts",
+  "info": {
+    "name": "Social Accounts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "via": "social_account",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "Github": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.github"
+    },
+    "Linkedin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "account.linkedin"
+    }
+  }
+}

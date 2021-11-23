@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_account_githubs",
+  "info": {
+    "name": "Github",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

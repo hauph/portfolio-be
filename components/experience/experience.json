@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "name": "experience",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "company_icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "detail": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_account_linkedins",
+  "info": {
+    "name": "linkedin",
+    "icon": "unlink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

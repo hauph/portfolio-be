@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "name": "Education",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainEdu": {
+      "type": "string"
+    },
+    "Education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    },
+    "users_permissions_user": {
+      "via": "education",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "enable": {
+      "type": "boolean",
+      "default": true
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

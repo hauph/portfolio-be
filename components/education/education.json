@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_education_educations",
+  "info": {
+    "name": "Education",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "eduInfo": {
+      "type": "richtext"
+    }
+  }
+}
