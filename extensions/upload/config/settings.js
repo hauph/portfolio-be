@@ -3,7 +3,7 @@ module.exports = {
   providerOptions: {
     key: process.env.DO_SPACE_ACCESS_KEY,
     secret: process.env.DO_SPACE_SECRET_KEY,
-    endpoint: process.env.DO_SPACE_ENDPOINT,
+    endpoint: 'sgp1.digitaloceanspaces.com',
     space: process.env.DO_SPACE_BUCKET,
   },
 };
